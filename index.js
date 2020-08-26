@@ -61,7 +61,7 @@ app.post("/delete", function(req, res){
     res.redirect('back');
 });
 
-app.listen(process.env.port || 8000, function(err){
+app.listen(process.env.PORT,'0.0.0.0', function(err){
     if(err){
         console.log(`Error in running the server`);
         return;
