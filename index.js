@@ -1,6 +1,6 @@
 // Basic express setup
 const express = require('express');
-const port = 8000;
+//const port = 8000;            changed for deployment heroku as it gives dynamic ports
 const app = express();
 
 // Db and schema setup
@@ -61,10 +61,10 @@ app.post("/delete", function(req, res){
     res.redirect('back');
 });
 
-app.listen(process.env.port || port, function(err){
+app.listen(process.env.port || 8000, function(err){
     if(err){
-        console.log(`Error in running the server: ${err}`);
+        console.log(`Error in running the server`);
         return;
     }
-    console.log(`Server up and running on port: ${port}`);
+    console.log(`Server up and running good`);
 });
