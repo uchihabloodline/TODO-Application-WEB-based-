@@ -1,13 +1,13 @@
 {
   "name": "todo_list",
   "version": "1.0.0",
-  "description": "A simple ToDoList app",
+  "description": "A simple ToDoList app on web",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "shivam pandey",
+  "author": "Shivam Pandey",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.1",
