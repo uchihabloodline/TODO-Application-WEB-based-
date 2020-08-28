@@ -13,6 +13,7 @@ app.set('views', './views');
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('assets'));
 
+//initially all the pending will be listed(if any) on the home page of app.
 app.get('/', function(req, res){
     Card.find({}, function(err, todoList){
         if(err){
