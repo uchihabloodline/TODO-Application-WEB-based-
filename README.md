@@ -1,7 +1,7 @@
 # TODO-Application-[WEB-based]
 A TODO application in Node.js.
 
-<h3>Application hosted on Heroku at <a href="https://todo-list-app-shivam.herokuapp.com">this</a> link. Used mongo-Atlas for the Cloud database. </h3>
+<h3>Application hosted on Heroku at <a href="https://todo-list-app-shivam.herokuapp.com" target="_blank">this</a> link. Used mongo-Atlas for the Cloud database. </h3>
 
 <h2>Steps to clone and run the project on local machine:-</h2>
   <ul>
